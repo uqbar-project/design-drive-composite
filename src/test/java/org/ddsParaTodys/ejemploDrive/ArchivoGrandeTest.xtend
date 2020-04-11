@@ -20,7 +20,7 @@ class ArchivoGrandeTest {
 	
 	@Test
 	@DisplayName("detectamos correctamente un archivo grande")
-	def void testArchivoGrande() {
+	def void testArchivoGrandeSeVerificaCorrectamente() {
 		assertTrue(archivoGrande.esGrande())		
 	}
 }
