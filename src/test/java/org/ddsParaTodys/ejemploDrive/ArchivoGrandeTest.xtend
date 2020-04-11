@@ -14,7 +14,7 @@ class ArchivoGrandeTest {
 	@BeforeEach
 	def void init() {
 		archivoGrande = new Archivo => [
-			tamanio = 5.01f
+			tamanio = 5.001f
 		]
 	}
 	
