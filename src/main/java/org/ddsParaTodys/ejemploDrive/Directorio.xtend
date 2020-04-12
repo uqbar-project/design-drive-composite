@@ -11,7 +11,7 @@ class Directorio implements ElementoNavegable {
 	}
 	
 	override esGrande() {
-		elementos.size > 2 || tamanio() > 10
+		elementos.size() > 2 || tamanio() > 10
 	}
 	
 	def void agregarElemento(ElementoNavegable elemento) {
